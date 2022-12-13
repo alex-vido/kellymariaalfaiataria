@@ -1,0 +1,27 @@
+.footer {
+    background-color: #fdf9f0;
+    border-radius: 5px;
+    height: 90px;
+
+}
+
+.icons {
+    margin: 5px 0 0 10px;
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+
+.icons li {
+    display: inline;
+    margin: 0px 5px;
+}
+
+.icons a, .registered a {
+    text-decoration: none;
+    color: black;    
+}
+.registered {
+    position: relative;
+    margin: 0 0 0 1050px;
+}

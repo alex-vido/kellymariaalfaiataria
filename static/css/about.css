@@ -1,0 +1,25 @@
+.about {
+    text-align: justify;
+}
+
+.photo_personal, .about-text, .about {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.photo_personal {
+    width: 450px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.main-title {
+    margin: 0 0 50px 0 ;
+}
+
+.main-text {
+    margin: 335px 0px 0px 30px;
+    font-size: 30px;
+    font-weight: 200;
+}

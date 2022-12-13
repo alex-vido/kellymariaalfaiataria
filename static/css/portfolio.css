@@ -1,0 +1,48 @@
+
+
+.portfolio img {
+    transition: 1s all;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.portfolio img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.port-main-title {
+    padding: 50px 100px;
+    background-color: #fdf9f0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+
+.port-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 25px 0;
+}
+
+.men, .women, .kids, .monogram {
+    text-align: center;
+
+}
+
+.img-men, .img-kids, .img-monogram, .img-women {
+    height: 450px;
+    max-width: 400px;
+
+}
