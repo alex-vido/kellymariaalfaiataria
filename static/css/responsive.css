@@ -2,7 +2,6 @@
 
     body {
         margin: 0 auto;
-        text-align: center;
         max-width: 100%;
     }
     .box, .box img .about, .portfolio, .women, .men, .kids, .shirts, .monogram, .contact, .body, .registered, .photo-personal, .main-text, .img-port, .registered {
@@ -17,12 +16,9 @@
     h1 {
         text-align: center;
     }
-    
+
     nav {
         position: static;
     }
 
-    .about {
-        display: inline;
-    }
 }
