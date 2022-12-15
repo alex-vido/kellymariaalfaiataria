@@ -46,11 +46,6 @@
         max-width: 95%;
     }
 
-    .portfolio img:hover {
-        transform: none;
-
-    }
-
     .port-title-box {
         width: 100%;
     }
