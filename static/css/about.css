@@ -4,22 +4,24 @@
 
 .photo_personal, .about-text, .about {
     display: flex;
-    flex-direction: row;
 
 }
 
 .photo_personal {
+    min-width:250px;
+    max-width: 100%;
     width: 450px;
-    height: 600px;
+    min-height: 70%;
     border-radius: 10px;
 }
 
 .main-title {
-    margin: 0 0 50px 0 ;
+    margin: 20px auto ;
 }
 
 .main-text {
-    margin: 335px 0px 0px 30px;
+    margin: 3% auto;
     font-size: 30px;
     font-weight: 200;
+    max-width: 30%;
 }
