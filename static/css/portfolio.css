@@ -35,7 +35,7 @@
     padding: 25px 0;
 }
 
-@media screen and (max-width: 480px) {
+    @media screen and (max-width: 480px) {
  
     .portfolio, .men img{
         margin: 5% auto;
@@ -57,5 +57,14 @@
     }
     .port-titles {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    .portfolio img {
+        max-width: 51%;
+        min-width: 300px;
+        min-height: 300px;
     }
 }
