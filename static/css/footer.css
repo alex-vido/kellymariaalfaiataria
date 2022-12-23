@@ -26,38 +26,39 @@ footer {
 .registered {
     background-color: #fdf9f0;
     position: relative;
-    padding: 0 0 1% 85%;
+    padding: 0 0 1% 80%;
+    margin: 0 5%;
 }
 
 @media screen and (max-width: 480px) {
-
-    .footer {
+    
+    footer {
+        margin: 0;
         width: 100%;
-        padding: 6% 0 6% 0;
     }
 
     .icons {
         width: 15px;
         height: 15px;
     }
-
+    
     .text-icons {
         font-size: 15px;
     }
-
+    
     .registered {
+        margin: 0;
         font-size: 15px;
-        padding: 0 0 1% 75%;
-
+        padding: 0 0 1% 70%;
     }
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width:481px) and (max-width: 900px) {
 
     .footer {
+        margin: 0;
         width: 100%;
-        padding: 6% 0 6% 0;
     }
 
     .icons {
@@ -70,6 +71,7 @@ footer {
     }
 
     .registered {
+        margin: 0;
         font-size: 15px;
         padding: 0 0 1% 88%;
 
