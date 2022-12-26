@@ -23,17 +23,17 @@ body {
 
 }
 
-nav {
+.box nav {
     padding-top: 5%;
 }
 
-nav li {
+.box nav li {
     display: inline-flex;
     justify-content: space-around;
     margin-right: 4px;
 }
 
-nav a {
+.box nav a {
     color: #000000;
     font-weight: 500;
     font-size: 20px;
@@ -42,7 +42,7 @@ nav a {
 
 @media screen and (max-width: 480px) {
 
-    nav {
+    .box nav {
     padding-top: 0%;
     }
 }
