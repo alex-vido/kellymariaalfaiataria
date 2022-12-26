@@ -68,7 +68,9 @@ footer {
         margin: 0;
         font-size: 15px;
     }
-
+    .registered nav, .registered ul {
+        padding: 0 3%;
+    }
 }
 
 @media screen and (min-width:481px) and (max-width: 900px) {
