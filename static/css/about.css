@@ -29,7 +29,6 @@
     border-radius: 5px;
 }
 
-
 .about-text-box {
  margin: 0;    
 }
@@ -39,6 +38,10 @@
     font-size: 26px;
     font-weight: 200;
     max-width: 90%;
+}
+
+.about-text strong {
+    font-weight: 600;
 }
 
 @media screen and (max-width: 480px) {
