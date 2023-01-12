@@ -8,7 +8,7 @@
     max-width: 100%;
     min-width:450px;
     width: 450px;
-    min-height: 80%;
+    min-height: 70%;
     border-radius: 10px;
     transition: 1s all;
 
@@ -31,14 +31,14 @@
 
 
 .about-text-box {
- margin: 2% 3%;    
+ margin: 0;    
 }
 
 .about-text {
-    margin: 3% auto;
-    font-size: 30px;
+    margin: 0 auto;
+    font-size: 26px;
     font-weight: 200;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 @media screen and (max-width: 480px) {
